@@ -1,30 +1,31 @@
-# config-chain
+# configuration-chain
 
-A module for loading custom configurations
+Based on 
+[config-chain ![npm downloads](https://img.shields.io/npm/dt/config-chain.svg?style=flat-square)](https://www.npmjs.com/package/config-chain)
 
-## NOTE: Feature Freeze
+> A module for loading custom configurations
 
-[![locked](http://badges.github.io/stability-badges/dist/locked.svg)](http://github.com/badges/stability-badges)
+[![npm version](https://badgen.net/npm/v/configuration-chain)](https://www.npmjs.com/package/configuration-chain)
+[![dependencies Status](https://badgen.net/david/dep/goatandsheep/configuration-chain)](https://david-dm.org/goatandsheep/configuration-chain)
+[![codecov](https://badgen.net/codecov/c/github/goatandsheep/configuration-chain)](https://codecov.io/gh/goatandsheep/configuration-chain)
+[![npm downloads](https://img.shields.io/npm/dt/configuration-chain.svg?style=flat-square)](https://www.npmjs.com/package/configuration-chain)
 
-This module is frozen.
-
-In general, we recommend using [rc](https://github.com/dominictarr/rc) instead,
-but as [npm](https://github.com/npmjs/npm) depends on this, it cannot be changed.
+In general, we recommend using [run-con](https://github.com/goatandsheep/rc)
 
 
 ## Install
 
 ```sh 
-yarn add config-chain
+yarn add configuration-chain
 
 # npm users
-npm install --save config-chain
+npm install --save configuration-chain
 ```
 
 ## Usage
 
 ```js
-const cc = require('config-chain');
+const cc = require('configuration-chain');
 
 console.log(cc.env('TERM_', process.env));
 /*
@@ -43,9 +44,9 @@ prefixed by the specified prefix, removes the prefix, and puts the values on a n
 
 ``` js
 
-  // npm install config-chain
+  // npm install configuration-chain
 
-  var cc = require('config-chain')
+  var cc = require('configuration-chain')
     , opts = require('optimist').argv //ALWAYS USE OPTIMIST FOR COMMAND LINE OPTIONS.
     , env = opts.env || process.env.YOUR_APP_ENV || 'dev' //SET YOUR ENV LIKE THIS.
 
@@ -98,7 +99,7 @@ Finally, flexible configurations!  👌
 ## Custom Configuations
 
 ```javascript
-var cc = require('config-chain')
+var cc = require('configuration-chain')
 
 // all the stuff you did before
 var config = cc({
@@ -255,3 +256,7 @@ saved.
 
 When the config chain has loaded all the specified files and urls and
 such, the 'load' event fires.
+
+## Credits
+
+This is based on [config-chain](https://github.com/dawsbot/config-chain) by @dominictarr
