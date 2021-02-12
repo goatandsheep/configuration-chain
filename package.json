@@ -1,17 +1,17 @@
 {
-  "name": "config-chain",
+  "name": "configuration-chain",
   "version": "1.1.12",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://raw.githubusercontent.com/dominictarr/config-chain/master/LICENCE"
+      "url": "https://raw.githubusercontent.com/goatandsheep/configuration-chain/master/LICENCE"
     }
   ],
   "description": "HANDLE CONFIGURATION ONCE AND FOR ALL",
-  "homepage": "http://github.com/dominictarr/config-chain",
+  "homepage": "http://github.com/goatandsheep/configuration-chain",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dominictarr/config-chain.git"
+    "url": "https://github.com/goatandsheep/configuration-chain.git"
   },
   "files": [
     "index.js"
@@ -23,7 +23,7 @@
   "devDependencies": {
     "tap": "0.3.0"
   },
-  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "author": "Kemal Ahmed (https://github.com/goatandsheep)",
   "scripts": {
     "test": "tap test/*"
   }
