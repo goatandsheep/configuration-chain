@@ -1,11 +1,9 @@
 arch:
  - amd64
- - ppc64le
 language: node_js
 node_js:
   - '10'
-  - '8'
-  - '6'
-  - '4'
-  - '.12'
-  - '.10'
+  - '12'
+  - '14'
+  - '15'
+  - 'node'
