@@ -9,6 +9,7 @@ Based on
 [![dependencies Status](https://badgen.net/david/dep/goatandsheep/configuration-chain)](https://david-dm.org/goatandsheep/configuration-chain)
 [![codecov](https://codecov.io/gh/goatandsheep/configuration-chain/branch/master/graph/badge.svg?token=jCs6IIQ0g6)](https://codecov.io/gh/goatandsheep/configuration-chain)
 [![npm downloads](https://img.shields.io/npm/dt/configuration-chain.svg?style=flat-square)](https://www.npmjs.com/package/configuration-chain)
+[![Known Vulnerabilities](https://snyk.io/test/github/goatandsheep/configuration-chain/badge.svg)](https://snyk.io/test/github/goatandsheep/configuration-chain)
 
 In general, we recommend using [run-con](https://github.com/goatandsheep/rc)
 
