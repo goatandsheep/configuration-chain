@@ -21,7 +21,7 @@
     "ini": "^2.0.0"
   },
   "devDependencies": {
-    "tap": "14.11.0"
+    "tap": "15.1.5"
   },
   "author": "Kemal Ahmed (https://github.com/goatandsheep)",
   "scripts": {
