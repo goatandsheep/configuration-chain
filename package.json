@@ -17,8 +17,8 @@
     "index.js"
   ],
   "dependencies": {
-    "proto-list": "~1.2.4",
-    "ini": "^2.0.0"
+    "proto-list": "1.2.4",
+    "ini": "2.0.0"
   },
   "devDependencies": {
     "tap": "15.1.5"
